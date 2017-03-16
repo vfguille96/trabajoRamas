@@ -7,6 +7,9 @@ namespace Ramas
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ("Hola Mundo!");
+
+			// Añadiendo ReadLine() por seguridad.
+			Console.ReadLine();
 		}
 	}
 }
